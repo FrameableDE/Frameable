@@ -109,6 +109,9 @@ li a:hover {
       max-width: 100%;
     }
   }
+  @viewport {
+    width: device-width;
+  }
 
   .footer {
     position:relative;
