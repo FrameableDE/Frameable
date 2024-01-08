@@ -170,7 +170,7 @@ a:link {
 }
 
 .modal {
-  display: none;
+  display:none;
   /* Hidden by default */
   position: fixed;
   /* Stay in place */
@@ -194,9 +194,10 @@ a:link {
 
 .modal-content {
   margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
+  display: flex;
+  width: 70%;
+  max-width:700px;
+  
 }
 
 #caption {
